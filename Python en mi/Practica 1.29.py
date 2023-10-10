@@ -11,13 +11,10 @@ edad=int(input("Dime tu edad: "))
 
 if nom==" ":
     nom="Desconocido"
-    while edad<0 or edad>125:
-        print("ERROR")
-        edad=int(input("Dime tu edad: "))  
-else:
-    while edad<0 or edad>125:
-        print("ERROR")
-        edad=int(input("Dime tu edad: "))   
+
+while edad<0 or edad>125:
+    print("ERROR")
+    edad=int(input("Dime tu edad: "))   
 
 vida=125-edad
 
