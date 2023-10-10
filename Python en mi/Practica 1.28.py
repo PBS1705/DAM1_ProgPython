@@ -15,7 +15,7 @@ n2=int(input("Dame otro número: "))
 cont=n1-n2
 if n1==n2:
     print("Los números no pueden ser iguales ")
-if n1>n2:
-    print(f"El número menor es el {n2} y entre ellos existen {cont} números enteros")
-else:
-    print(f"El número menor es el {n1} y entre ellos existen {-cont} números enteros")
+    if n1>n2:
+        print(f"El número menor es el {n2} y entre ellos existen {cont} números enteros")
+    else:
+        print(f"El número menor es el {n1} y entre ellos existen {-cont} números enteros")
