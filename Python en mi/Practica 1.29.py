@@ -1,11 +1,12 @@
+#inicio
 #lee nom,edad
 #si nom=" " hacer
 #   nom="Desconocido"
-#sino si edad<0 or edad>125
+#mientras edad<0 or edad>125
 #      escribe Edad no valida
-#sino
 #vida=125-edad
 #escribe Te llamas nom y tienes edad años, te quedan aún vida años por cumplir"
+#fin
 nom=input("Dime tu nombre: ")
 edad=int(input("Dime tu edad: "))
 
