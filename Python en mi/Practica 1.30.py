@@ -1,7 +1,7 @@
 
 #inicio
 #lee numero,incremento,total
-#fin lista desde numero hasta total
+#fin crea lista desde numero hasta total
 # escribe fin
 #fin  
 numero=int(input("Dime tu número: "))
