@@ -5,8 +5,7 @@
 #   nom="Desconocido"
 #mientras edad<0 or edad>125
 #      escribe Edad no valida
-#vida=125-edad
-#escribe Te llamas nom y tienes edad años, te quedan aún vida años por cumplir"
+#escribe Te llamas nom y tienes edad años, te quedan aún 125-edad años por cumplir"
 #fin
 nom=input("Dime tu nombre: ")
 edad=int(input("Dime tu edad: "))
@@ -17,6 +16,4 @@ while edad<0 or edad>125:
     print("ERROR")
     edad=int(input("Dime tu edad: "))   
 
-vida=125-edad
-
-print(f"Te llamas {nom} y tienes {edad} años, te quedan aún {vida} años por cumplir")
+print(f"Te llamas {nom} y tienes {edad} años, te quedan aún {125-edad} años por cumplir")
