@@ -1,4 +1,5 @@
 #inicio
+#escribe nombre y edad
 #lee nom,edad
 #si nom=" " hacer
 #   nom="Desconocido"
@@ -12,7 +13,6 @@ edad=int(input("Dime tu edad: "))
 
 if nom==" ":
     nom="Desconocido"
-
 while edad<0 or edad>125:
     print("ERROR")
     edad=int(input("Dime tu edad: "))   
