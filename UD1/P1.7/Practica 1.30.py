@@ -12,9 +12,9 @@ print(num,end="-")
 while num<total-1:
     num+=incremento
     if num==total-1:
-        print(num+1, end="")
+        print(num, end="")
     elif num!=total-1:
-        print(num+1, end="..")
+        print(num, end="..")
 
 print(f"-{total}",end="")
    
