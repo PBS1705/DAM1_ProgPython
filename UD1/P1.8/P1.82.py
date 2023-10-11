@@ -18,3 +18,17 @@
 #			Escribe "-"
 #
 #Fin
+x=int(input("Introduce un número: "))
+y=int(input("Introduce otro: "))
+if x>=y : 
+    numIni=y
+    numFin=x
+else:
+    numIni=x
+    numFin=y
+
+for i in range(numIni,numFin+1):
+    if(i==numFin):
+        print(i,end="")
+    else:
+        print(i,end="-")
