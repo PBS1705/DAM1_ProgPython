@@ -13,10 +13,10 @@
 #		numFin = x
 #		
 #	Para i en (numIni...numFin) hacer
-#		Escribe i + 
-#		Si (numIni != numFin) entonces
-#			Escribe "-"
-#
+#		Si (i == numFin) entonces
+#			Escribe "i"
+#          sino
+#           Escribe "i,al fina -"
 #Fin
 x=int(input("Introduce un número: "))
 y=int(input("Introduce otro: "))
