@@ -2,7 +2,7 @@ import pytest
 from factorial import factorial
 
 @pytest.mark.parametrize(
-"num, cont",
+"num, expected",
 [
     (1,1),
     (3,6),
@@ -10,5 +10,5 @@ from factorial import factorial
     (5,120), 
     (9,362880)
 ])
-def test_factorial_params(num, cont):
-    assert factorial(num) == cont
+def test_factorial_params(num, expected):
+    assert factorial(num) == expected
