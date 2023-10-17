@@ -1,10 +1,5 @@
 import pytest
-from prueba1 import suma
-
-def test_suma():
-    assert suma(1, 1) == 2
-    assert suma(0, 0) == 0
-    assert suma(100, -100) == 0
+from factorial import suma
 
 @pytest.mark.parametrize(
 "input_n1, input_n2, expected",
