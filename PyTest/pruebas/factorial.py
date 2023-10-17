@@ -7,4 +7,4 @@ def factorial():
     while num>1:
         num-=1
         cont*=num
-    print(f"Su factorial es : {cont}")
+    return print(f"Su factorial es : {cont}")
