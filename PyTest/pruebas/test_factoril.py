@@ -1,14 +1,14 @@
 import pytest
-from factorial import factor
+from practica2 import fahren
 
 @pytest.mark.parametrize(
-"num, cont , inicio , guarda , expected",
+"Celsi , expected",
 [
-    (1,1),
-    (3,6),
-    (7,5040),
-    (5,120), 
-    (9,362880)
+    (1,33.8),
+    (3,37.4),
+    (7,44.6),
+    (5,41.0), 
+    (9,48.2)
 ])
-def test_factorial_params(num, expected):
-    assert factor(num) == expected
+def test_factorial_params(Celsi, expected):
+    assert fahren(Celsi) == expected
