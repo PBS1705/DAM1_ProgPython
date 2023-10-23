@@ -4,10 +4,10 @@ while num<0:
     num=int(input("Dame otro numero para hacerle el factoria: "))
 cont=num
 inicio=f"Tu {num}! => "
+guarda=str()
 while num>1:
+    guarda+=str(num)
     num-=1
     cont*=num
-    if num!=cont:
-        
-        conts=f"{num}*"
-print(inicio,conts,cont)
+    guarda+=" * "
+print(inicio,guarda+"1 =",cont)
