@@ -1,14 +1,14 @@
 import pytest
-from factorial import factorial
+from prueba1 import suma
 
 @pytest.mark.parametrize(
-"num, expected",
+"num1 , num2 , expected",
 [
-    (1,1),
-    (3,6),
-    (7,5040),
-    (5,120), 
-    (9,362880)
+    (1,1,2),
+    (3,6,9),
+    (7,5,12),
+    (5,1,6), 
+    (9,3,12)
 ])
-def test_factorial_params(num, expected):
-    assert factorial(num) == expected
+def test_factorial_params(num1 , num2 , expected):
+    assert suma(num1,num2) == expected
