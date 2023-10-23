@@ -7,4 +7,7 @@ inicio=f"Tu {num}! => "
 while num>1:
     num-=1
     cont*=num
-print(inicio,cont)
+    if num!=cont:
+        
+        conts=f"{num}*"
+print(inicio,conts,cont)
