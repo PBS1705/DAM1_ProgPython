@@ -1,4 +1,4 @@
-def factotial():
+def factor():
     num=int(input("Dame un numero para hacerle el factoria: "))
     while num<0:
         num=int(input("Dame otro numero para hacerle el factoria: "))
@@ -11,4 +11,4 @@ def factotial():
         cont*=num
         guarda+=" * "
     return (inicio,guarda+"1 =",cont)
-print(factotial())
+print(factor())
