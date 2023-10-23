@@ -10,5 +10,5 @@ def factor():
         num-=1
         cont*=num
         guarda+=" * "
-    return (inicio,guarda+"1 =",cont)
+    return inicio,guarda+"1 =",cont
 print(factor())

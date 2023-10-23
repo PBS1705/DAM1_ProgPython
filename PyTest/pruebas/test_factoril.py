@@ -2,7 +2,7 @@ import pytest
 from factorial import factor
 
 @pytest.mark.parametrize(
-"num, expected",
+"num, cont , inicio , guarda , expected",
 [
     (1,1),
     (3,6),
